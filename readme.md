@@ -1,25 +1,25 @@
-# Retrieve movies currently playing in theaters in a region, using TMDB API (Bash script)
+# Retrieve titles of currently playing movies, in theaters in a region, using TMDb API
 
 ## Synopsis
 
-A Bash script that retrieves movies that are in theaters, based on region, using ```curl```.
+Use of The Movie Database API to fetch movie titles that are currently playing in theaters of a country.
 
-## Scenario
+## Type
 
-We just want to play with TMDB's API !!
+Bash script
 
 ## Prerequisites
 
+* **curl** ```sudo apt-get install curl```
 * **jq** ```sudo apt-get install jq```
 
 ## Usage
 
-Make the script executable ```sudo chmod +x NowPlayingMovies.sh``` and run.
+Make the script executable ```chmod +x now-playing-movies.sh```
+
+Run the script ```./now-playing-movies.sh```
 
 
-## Example
+## Screenshots
 
-Sending|
------------- |
-![example](/images/image01.png) |
-![example](/images/image02.png) |
+![sshot01](/images/image01.png) |![sshot02](/images/image02.png) |
